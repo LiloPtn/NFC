@@ -1,0 +1,58 @@
+*
+{
+    margin:  0;
+    padding: 0;
+}
+.Reseaux
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+nav ul
+{
+    list-style: none;
+    display: flex;
+}
+nav ul a
+{
+    text-decoration: none;
+}
+nav ul li
+{
+    width: 150px;
+    height: 75px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.Part1{
+    padding-right: 30px;
+    padding-left: -30px;
+}
+.Instagram
+{
+    margin-bottom: 25%;
+    background: url("Img/Instagram.png");
+    background-size: cover;
+}
+.Twitter
+{
+    background: url("Img/Twitter.png");
+    background-size: cover;
+}
+.LinkedIn
+{
+    margin-bottom: 25%;
+    background: url("Img/LinkedIn.png");
+    background-size: cover;
+}
+.Discord
+{
+    background: url("Img/Discord.png");
+    background-size: cover;
+}
